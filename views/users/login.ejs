@@ -1,0 +1,39 @@
+<%- include('../partials/header.ejs') %>
+
+    <body>
+        <h1>login</h1>
+
+        <form action="/auth" method="POST">
+            <label for="">E-mail</label>
+            <input type="email" name="email" placeholder="exemple: email@email.com" value="<%= email %> ">
+            <br>
+            <% if (emailError) { %>
+                <%= emailError %>
+                    <% } %>
+                        <br>
+                        <label for="">Senha</label>
+                        <input type="password" name="password">
+
+                        <br>
+                        <% if (passwordError) { %>
+                            <%= passwordError %>
+                                <% } %>
+                                    <br>
+
+                                    <input type="submit" value="Enviar">
+        </form>
+
+        <% if (passwordIncorrect) { %>
+            <%= passwordIncorrect %>
+                <br>
+                <% }else{ %>
+                    <%= emailIncorrect %>
+                        <br>
+                        <% } %>
+
+
+                            <a href="./new">Novo usuário</a>
+                            <a href="/">Home</a>
+    </body>
+
+    <%- include ('../partials/footer') %>

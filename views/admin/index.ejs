@@ -1,0 +1,42 @@
+<%- include('../partials/header.ejs') %>
+
+    <body>
+        <a href="/logout">Sair</a>
+        <h1>Impressão dos usuários</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Excluir</th>
+                </tr>
+            </thead>
+            <% users.forEach(user=> { %>
+                <% if (user.admin !=1) { %>
+                    <tbody>
+                        <tr>
+                            <th>
+                                <%= user.id %>
+                            </th>
+                            <th>
+                                <%= user.name %>
+                            </th>
+                            <th>
+                                <%= user.email %>
+                            </th>
+                            <th>
+                                <form action="/admin/delete" method="POST">
+                                    <input type="hidden" name="id" value="<%= user.id %> ">
+                                    <input type="submit" value="Deletar">
+                                </form>
+                            </th>
+                        </tr>
+                    </tbody>
+                    <% } %>
+
+                        <% }) %>
+        </table>
+    </body>
+
+    <%- include ('../partials/footer') %>
