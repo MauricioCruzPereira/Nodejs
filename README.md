@@ -10,7 +10,7 @@ Dentro da pasta database no arquivo database deverá colocar o seu banco de dado
 deixando as aspas e no outro parentese deverá colocar a sua senha do banco de dados (caso houver, se não deixar em branco com as aspas
 tipo "").
 
-> **Note:** Execute também o comando npm install --save nodemon
+> **Note:** Execute também o comando `npm install --save nodemon`
 
 Depois para inicializar o projeto para teste colocar no terminal dentro da pasta "npm start" sem as aspas.
 
