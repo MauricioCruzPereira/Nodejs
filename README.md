@@ -1,6 +1,5 @@
 # Nodejs
-Sistema de login e cadastro com Adm utilizando node
-Esse site é com o intuito de demostrar as tecnologias do Nodejs
+Sistema de login e cadastro com Adm utilizando nodeJs.
 ---------------------------------------------------------------
 
 ## Como utilizar o código?
