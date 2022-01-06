@@ -16,4 +16,13 @@ Esse site é com o intuito de demostrar as tecnologias do Nodejs
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
+## Explicação dos comandos a cima
+
+- Sobre o `npm i`, ele irá instalar todas as dependências necessárias para o projeto rodar.
+- Sobre o `npm install --save nodemon`, ele irá instalar uma dependência que ao visualizar no arquivo 
+package.json estará escrito `"start": "nodemon index.js"`, onde ele é responsável por rodar o programa.
+- E sobre o `npm start` irá execultar o nodemon index.js por baixo dos panos, onde o responsável é o **start** 
+do tópico a cima.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
 O site em si apenas utilizei html e javascript no back end a fim de demostrar meus conhecimentos com essa tecnologia. 
