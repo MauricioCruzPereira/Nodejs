@@ -13,6 +13,10 @@ Sistema de login e cadastro com Adm utilizando nodeJs.
 - Após seguir todos esses procedimentos, deverá iniciar o projeto digitando no terminal da pasta **`npm start`**
 - Depois basta escrever: **`http://localhost:1616/`** e pronto, estará pronto para usar as ferramentas.
 
+# Transformando um usuário comum em admin
+- Claro deve antes entrar no banco de dados que colocou dentro do arquivo database.
+> `UPDATE (nome da tabela) SET admin = 1 WHERE id = (id da pessoa desejado)`
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 ## Explicação dos comandos a cima
