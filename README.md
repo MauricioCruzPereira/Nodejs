@@ -5,13 +5,13 @@ Sistema de login e cadastro com Adm utilizando nodeJs.
 ## Como utilizar o código?
 
 - Para utilizar-lo deverá ter o node instalado em sua máquina.
-- Após baixar todos os arquivos execultar o seguinte comando: **`npm i`.**
+- Após baixar todos os arquivos executar o seguinte comando: **`npm i`.**
 - Dentro da pasta database existe um arquivo chamado database, nele mudar os campos que estão entre parenteses para o seu ambiente
 
 > **Note:** Execute também o comando `npm install --save nodemon`
 
 - Após seguir todos esses procedimentos, deverá iniciar o projeto digitando no terminal da pasta **`npm start`**
-- Depois basta escrever: **`http://localhost:1616/`** e pronto, estará pronto para usar as ferramentas.
+- Depois basta escrever: **`http://localhost:1616/`** e utilizar ou realizar testes.
 
 # Transformando um usuário comum em admin
 - Claro deve antes entrar no banco de dados que colocou dentro do arquivo database.
