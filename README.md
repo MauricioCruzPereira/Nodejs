@@ -15,7 +15,9 @@ Sistema de login e cadastro com Adm utilizando nodeJs.
 
 # Transformando um usuário comum em admin
 - Claro deve antes entrar no banco de dados que colocou dentro do arquivo database.
-```UPDATE (nome da tabela) SET admin = 1 WHERE id = (id da pessoa desejado)``` 
+```
+UPDATE (nome da tabela) SET admin = 1 WHERE id = (id da pessoa desejado)
+``` 
 - Após fazer essa alteração, logar novamente e na barra de pesquisa escrever: `http://localhost:1616/admin`
 
 -----------------------------------------------------------------------------------------------------------------------------------------
